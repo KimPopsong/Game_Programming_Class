@@ -1,0 +1,6 @@
+﻿  HW1.cpp
+C:\Users\kimds\source\repos\HW1\HW1.cpp(163,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\kimds\source\repos\HW1\HW1.cpp(173,17): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kimds\source\repos\HW1\HW1.cpp(208,99): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\kimds\source\repos\HW1\HW1.cpp(208,115): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+  HW1.vcxproj -> C:\Users\kimds\source\repos\HW1\Debug\HW1.exe
