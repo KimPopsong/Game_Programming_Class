@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuickSortStruct", "QuickSortStruct.vcxproj", "{DC614F36-BC87-4F4F-946E-DD3A79AD423E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC614F36-BC87-4F4F-946E-DD3A79AD423E}.Debug|x86.ActiveCfg = Debug|Win32
+		{DC614F36-BC87-4F4F-946E-DD3A79AD423E}.Debug|x86.Build.0 = Debug|Win32
+		{DC614F36-BC87-4F4F-946E-DD3A79AD423E}.Release|x86.ActiveCfg = Release|Win32
+		{DC614F36-BC87-4F4F-946E-DD3A79AD423E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B608CDE5-0D6F-4249-8F0F-CC9A27BD223B}
+	EndGlobalSection
+EndGlobal
