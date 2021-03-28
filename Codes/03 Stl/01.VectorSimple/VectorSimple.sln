@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VectorSimple", "VectorSimple.vcxproj", "{6E38AA6D-7E90-4078-BD3D-B14983247058}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E38AA6D-7E90-4078-BD3D-B14983247058}.Debug|x86.ActiveCfg = Debug|Win32
+		{6E38AA6D-7E90-4078-BD3D-B14983247058}.Debug|x86.Build.0 = Debug|Win32
+		{6E38AA6D-7E90-4078-BD3D-B14983247058}.Release|x86.ActiveCfg = Release|Win32
+		{6E38AA6D-7E90-4078-BD3D-B14983247058}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6237BFA4-199F-46E3-BC50-693321BBC1A7}
+	EndGlobalSection
+EndGlobal

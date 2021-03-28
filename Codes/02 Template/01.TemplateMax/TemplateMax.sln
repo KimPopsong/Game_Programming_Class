@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateMax", "TemplateMax.vcxproj", "{BC3B6309-5B32-4830-B9CE-B352881D68A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC3B6309-5B32-4830-B9CE-B352881D68A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{BC3B6309-5B32-4830-B9CE-B352881D68A4}.Debug|x86.Build.0 = Debug|Win32
+		{BC3B6309-5B32-4830-B9CE-B352881D68A4}.Release|x86.ActiveCfg = Release|Win32
+		{BC3B6309-5B32-4830-B9CE-B352881D68A4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {338827CB-1B4F-4A96-AF4C-B092615B91CE}
+	EndGlobalSection
+EndGlobal
