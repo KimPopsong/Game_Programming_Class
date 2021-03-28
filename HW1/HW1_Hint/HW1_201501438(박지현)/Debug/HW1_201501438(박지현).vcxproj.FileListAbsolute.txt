@@ -1,0 +1,2 @@
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW1\hw1_hint\HW1_201501438(박지현)\Debug\HW1_201501438(박지현).exe
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW1\hw1_hint\HW1_201501438(박지현)\Debug\HW1_201501438(박지현).pdb
