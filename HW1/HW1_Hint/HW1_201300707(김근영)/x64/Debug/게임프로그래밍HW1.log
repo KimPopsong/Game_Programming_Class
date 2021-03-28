@@ -1,0 +1,7 @@
+﻿  게임프로그래밍HW1.cpp
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW1\hw1_hint\HW1_201300707(김근영)\게임프로그래밍HW1.cpp(59,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW1\hw1_hint\HW1_201300707(김근영)\게임프로그래밍HW1.cpp(151,22): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW1\hw1_hint\HW1_201300707(김근영)\게임프로그래밍HW1.cpp(185,8): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW1\hw1_hint\HW1_201300707(김근영)\게임프로그래밍HW1.cpp(183,6): warning C4101: 'hdc' :참조되지 않은 지역 변수입니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW1\hw1_hint\HW1_201300707(김근영)\게임프로그래밍HW1.cpp(184,14): warning C4101: 'ps' :참조되지 않은 지역 변수입니다.
+  게임프로그래밍HW1.vcxproj -> C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW1\hw1_hint\HW1_201300707(김근영)\x64\Debug\게임프로그래밍HW1.exe

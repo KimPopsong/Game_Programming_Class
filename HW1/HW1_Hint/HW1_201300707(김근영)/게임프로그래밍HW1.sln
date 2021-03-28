@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "게임프로그래밍HW1", "게임프로그래밍HW1.vcxproj", "{FB5B7B55-686C-494C-ACA2-A35576254B9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB5B7B55-686C-494C-ACA2-A35576254B9F}.Debug|x64.ActiveCfg = Debug|x64
+		{FB5B7B55-686C-494C-ACA2-A35576254B9F}.Debug|x64.Build.0 = Debug|x64
+		{FB5B7B55-686C-494C-ACA2-A35576254B9F}.Debug|x86.ActiveCfg = Debug|Win32
+		{FB5B7B55-686C-494C-ACA2-A35576254B9F}.Debug|x86.Build.0 = Debug|Win32
+		{FB5B7B55-686C-494C-ACA2-A35576254B9F}.Release|x64.ActiveCfg = Release|x64
+		{FB5B7B55-686C-494C-ACA2-A35576254B9F}.Release|x64.Build.0 = Release|x64
+		{FB5B7B55-686C-494C-ACA2-A35576254B9F}.Release|x86.ActiveCfg = Release|Win32
+		{FB5B7B55-686C-494C-ACA2-A35576254B9F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66D3EFCE-5B4D-4E00-A42D-57D6F9A5ADA7}
+	EndGlobalSection
+EndGlobal
