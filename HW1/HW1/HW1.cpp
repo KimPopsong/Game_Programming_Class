@@ -45,9 +45,9 @@ BOOL                InitInstance(HINSTANCE, int);
 LRESULT CALLBACK    WndProc(HWND, UINT, WPARAM, LPARAM);
 INT_PTR CALLBACK    About(HWND, UINT, WPARAM, LPARAM);
 
-bool SortByScore(const Student& st1, const Student& st2)
+bool SortByScore(const Student& st1, const Student& st2)  // sort 함수에 사용되는 함수. 내림차순으로 정렬되게 함
 {
-	if (st1.score < st2.score)
+	if (st1.score > st2.score)
 	{
 		return true;
 	}
@@ -162,15 +162,16 @@ LRESULT OnPaint(HWND hWnd)  // 사각형을 그리는 함수 From PPT p.27 and h
 
 	for (int i = 0; i < studentVector.size(); ++i)
 	{
-		HBRUSH Mybrush = CreateSolidBrush(RGB(255 - i * 4, 255 - i * 7, 255 - student[i].score));
+		HBRUSH Mybrush = CreateSolidBrush(RGB(255 - i * 4, 255 - i * 7, 255 - studentVector[i].score));
 		HGDIOBJ hOldBrush = SelectObject(ps.hdc, Mybrush);
-		RECT rt = { left, bottom + 50 - (i * 70), right, top + (i * 70) };  // left, ?, right, ?
 
-		Rectangle(ps.hdc, left, bottom + 100 - 70 * (i + 1), right, top - (70 * i));
-		DrawText(hdc, student[i].name, -1, &rt, DT_CENTER);
+		Rectangle(ps.hdc, left, bottom + 100 - 70 * (i + 1), right, top - (70 * i));  // 가장 큰 사각형
+
+		RECT rt = { left, bottom + 50 - (i * 70), right, top + (i * 70) };  // left, bottom, right, top
+		DrawText(hdc, studentVector[i].name, -1, &rt, DT_CENTER);  // 이름을 출력하는 사각형
 
 		RECT rt2 = { left, bottom + 70 - (i * 70), right, top + (i * 70) };
-		DrawText(hdc, _itow(student[i].score, buf, 10), -1, &rt2, DT_CENTER);
+		DrawText(hdc, _itow(studentVector[i].score, buf, 10), -1, &rt2, DT_CENTER);  // 점수를 출력하는 사각형
 
 		SelectObject(ps.hdc, hOldBrush);
 		DeleteObject(Mybrush);
@@ -194,8 +195,6 @@ LRESULT OnPaint(HWND hWnd)  // 사각형을 그리는 함수 From PPT p.27 and h
 //
 LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
-	pair <LPCWSTR, int> p;  // 뭘까??????????????????????????????????????????????????????????????????????????
-
 	switch (message)
 	{
 	case WM_LBUTTONDOWN:  // 왼쪽 마우스 버튼이 눌렸을 때
@@ -205,18 +204,20 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 		int param = studentVector.empty() ? 0 : 1;
 		
-		if ((left * param <= xpos && xpos <= right * param) && (bottom - ((studentVector.size()) * 70)) <= ypos && ypos <= (top - ((studentVector.size()) * 70))) ///////////수정 제발 수정해 ^^ㅣ발 제발
+		if ((left * param <= xpos && xpos <= right * param) && ((700 - studentVector.size() * 70) <= ypos) && (ypos <= (770 - studentVector.size() * 70)))  // 맨 위에 사각형을 클릭할 때
 		{
-			if (studentVector.empty())
+			if (studentVector.empty())  // 삭제 불가능 할 경우
 			{
-				MessageBoxW(hWnd, L"Stack Is Empty!", L"Empty Stack", 0);
+				MessageBoxW(hWnd, L"Empty!", L"Few Student!", 0);
 			}
 
 			else
 			{
-				studentVector.pop_back();
-				InvalidateRect(hWnd, NULL, TRUE);
-				studentIndex--;
+				studentVector.pop_back();  // 한 개의 벡터 삭제
+
+				InvalidateRect(hWnd, NULL, TRUE);  // 화면 갱신
+
+				studentIndex--;  // 학생의 수 1 감소
 			}
 		}
 
@@ -235,21 +236,20 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 				studentVector.push_back(student[studentIndex]);  // vector에 저장
 
-				InvalidateRect(hWnd, NULL, TRUE);
+				InvalidateRect(hWnd, NULL, TRUE);  // 화면 갱신
 
 				studentIndex++;  // 학생의 수 1 증가
 
-				sort(studentVector.begin(), studentVector.end(), SortByScore);  // vector를 내림차순으로 정렬, ERROR......
+				sort(studentVector.begin(), studentVector.end(), SortByScore);  // vector를 내림차순으로 정렬
 			}
 
 			else
 			{
-				MessageBox(hWnd, L"Stack Is FULL!", L"FULL STACK", 0);
+				MessageBox(hWnd, L"Aleardy 8 Student!", L"Too Many Student", 0);  // 경고 문구 출력
 			}
 		}
 
-		InvalidateRect(hWnd, NULL, TRUE);
-		OnPaint(hWnd);
+		InvalidateRect(hWnd, NULL, TRUE);  // 화면 갱신
 
 		return 0;
 	}
@@ -263,9 +263,11 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		case IDM_ABOUT:
 			DialogBox(hInst, MAKEINTRESOURCE(IDD_ABOUTBOX), hWnd, About);
 			break;
+
 		case IDM_EXIT:
 			DestroyWindow(hWnd);
 			break;
+
 		default:
 			return DefWindowProc(hWnd, message, wParam, lParam);
 		}
@@ -275,12 +277,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 	case WM_PAINT:
 	{
 		OnPaint(hWnd);
-		/*
-		PAINTSTRUCT ps;
-		HDC hdc = BeginPaint(hWnd, &ps);
-		// TODO: 여기에 hdc를 사용하는 그리기 코드를 추가합니다...
-		EndPaint(hWnd, &ps);
-		*/
+
 		return 0;
 	}
 	break;
