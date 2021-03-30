@@ -1,7 +1,7 @@
 ﻿E:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(HW1.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
   HW1.cpp
-C:\Users\kimds\source\repos\HW1\HW1.cpp(163,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\kimds\source\repos\HW1\HW1.cpp(174,17): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\kimds\source\repos\HW1\HW1.cpp(207,93): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\kimds\source\repos\HW1\HW1.cpp(207,111): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\kimds\source\repos\HW1\HW1.cpp(164,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\kimds\source\repos\HW1\HW1.cpp(175,17): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kimds\source\repos\HW1\HW1.cpp(208,93): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\kimds\source\repos\HW1\HW1.cpp(208,111): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
   HW1.vcxproj -> C:\Users\kimds\source\repos\HW1\Debug\HW1_201801527(김대성).exe

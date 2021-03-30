@@ -21,21 +21,21 @@ HINSTANCE hInst;                                // 현재 인스턴스입니다.
 WCHAR szTitle[MAX_LOADSTRING];                  // 제목 표시줄 텍스트입니다.
 WCHAR szWindowClass[MAX_LOADSTRING];            // 기본 창 클래스 이름입니다.
 
-int left = 200;
-int bottom = 600;
-int right = 600;
-int top = 700;
-
 typedef struct {
 	WCHAR name[4];
 	int score;
 }Student;
 
-WCHAR lastname[] = L"김나박이";
-WCHAR firstname[] = L"대성수연정민수한종혁석준식";
+const WCHAR lastName[] = L"김나박이";
+const WCHAR firstName[] = L"대성수연정민수한종혁석준식";
 
 Student student[8];
 vector<Student> studentVector;
+
+const int left = 200;
+const int bottom = 600;
+const int right = 600;
+const int top = 700;
 
 int studentIndex;
 
@@ -67,6 +67,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 	UNREFERENCED_PARAMETER(lpCmdLine);
 
 	// TODO: 여기에 코드를 입력합니다.
+	srand((unsigned)time(NULL));
 
 	// 전역 문자열을 초기화합니다.
 	LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
@@ -213,7 +214,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 			else
 			{
-				studentVector.pop_back();  // 한 개의 벡터 삭제
+				studentVector.pop_back();  // 맨 뒤의 벡터 삭제
 
 				InvalidateRect(hWnd, NULL, TRUE);  // 화면 갱신
 
@@ -226,10 +227,10 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 			if (studentVector.size() < 8)  // 학생이 8명 미만이라면
 			{
 				student[studentIndex].score = (rand() % 50) + 50;  // 점수는 0 ~ 49 + 50 -> 50 ~ 99점 까지
-				student[studentIndex].name[0] = lastname[rand() % 4];  // 무작위 성 배치
+				student[studentIndex].name[0] = lastName[rand() % 4];  // 무작위 성 배치
 
 				for (int i = 1; i < 3; ++i) {
-					student[studentIndex].name[i] = firstname[rand() % 13];  // 무작위 이름 두개 배치
+					student[studentIndex].name[i] = firstName[rand() % 13];  // 무작위 이름 두개 배치
 				}
 
 				student[studentIndex].name[3] = '\0';  // NULL
