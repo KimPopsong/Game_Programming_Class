@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  HW1_201801527(김대성).cpp
+C:\Users\kimds\source\repos\test\HW1_201801527(김대성)\HW1_201801527(김대성).cpp(162,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\kimds\source\repos\test\HW1_201801527(김대성)\HW1_201801527(김대성).cpp(173,17): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kimds\source\repos\test\HW1_201801527(김대성)\HW1_201801527(김대성).cpp(206,93): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\kimds\source\repos\test\HW1_201801527(김대성)\HW1_201801527(김대성).cpp(206,111): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+  HW1_201801527(김대성).vcxproj -> C:\Users\kimds\source\repos\test\HW1_201801527(김대성)\Debug\HW1_201801527(김대성).exe
