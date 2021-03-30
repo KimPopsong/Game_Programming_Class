@@ -2,15 +2,12 @@
 //
 
 #include "pch.h"
-#include "framework.h"
 #include "HW1.h"
-#include <vector>
-#include <stack>
-#include <string>
-#include <stdlib.h>
-#include <time.h>
-#include <algorithm>
-#include <windowsx.h>
+#include <vector>  // vector 사용
+#include <stdlib.h>  // random
+#include <time.h>  // random
+#include <algorithm>  // sort 함수 사용
+#include <windowsx.h>  // xpos, ypos
 
 #define MAX_LOADSTRING 100
 
@@ -29,7 +26,6 @@ typedef struct {
 const WCHAR lastName[] = L"김나박이";
 const WCHAR firstName[] = L"대성수연정민수한종혁석준식";
 
-Student student[8];
 vector<Student> studentVector;
 
 const int left = 200;
@@ -205,7 +201,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 		int param = studentVector.empty() ? 0 : 1;
 		
-		if ((left * param <= xpos && xpos <= right * param) && ((700 - studentVector.size() * 70) <= ypos) && (ypos <= (770 - studentVector.size() * 70)))  // 맨 위에 사각형을 클릭할 때
+		if ((left * param <= xpos && xpos <= right * param) && ((700 - studentVector.size() * 70) <= ypos) && (ypos <= (770 - studentVector.size() * 70)))  // 맨 위에 상자를 클릭할 때
 		{
 			if (studentVector.empty())  // 삭제 불가능 할 경우
 			{
@@ -226,16 +222,18 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		{
 			if (studentVector.size() < 8)  // 학생이 8명 미만이라면
 			{
-				student[studentIndex].score = (rand() % 50) + 50;  // 점수는 0 ~ 49 + 50 -> 50 ~ 99점 까지
-				student[studentIndex].name[0] = lastName[rand() % 4];  // 무작위 성 배치
+				Student student;
+
+				student.score = (rand() % 50) + 50;  // 점수는 50 ~ 99
+				student.name[0] = lastName[rand() % 4];  // 성
 
 				for (int i = 1; i < 3; ++i) {
-					student[studentIndex].name[i] = firstName[rand() % 13];  // 무작위 이름 두개 배치
+					student.name[i] = firstName[rand() % 13];  // 이름 두 개
 				}
 
-				student[studentIndex].name[3] = '\0';  // NULL
+				student.name[3] = '\0';  // NULL
 
-				studentVector.push_back(student[studentIndex]);  // vector에 저장
+				studentVector.push_back(student);
 
 				InvalidateRect(hWnd, NULL, TRUE);  // 화면 갱신
 
