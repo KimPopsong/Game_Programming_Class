@@ -1,0 +1,42 @@
+﻿  HW2_201801527(김대성).cpp
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(174,26): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(175,26): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(176,26): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(426,34): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(428,35): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(429,19): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(431,38): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(432,26): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(433,39): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(434,29): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(449,44): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(454,38): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(455,26): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(456,39): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(457,29): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(460,101): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(460,84): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(460,69): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(460,53): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(471,40): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(472,28): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(473,41): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(474,31): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(476,107): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(476,89): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(476,73): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(476,56): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(485,85): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(485,71): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(485,59): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(485,46): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(477,5): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(489,3): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(494,3): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(499,3): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(504,3): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(549,33): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(555,23): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(580,3): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\HW2_201801527(김대성).cpp(585,3): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  HW2_201801527(김대성).vcxproj -> C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2_201801527(김대성)\Debug\HW2_201801527(김대성).exe
