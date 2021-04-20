@@ -69,6 +69,16 @@ DemoApp::~DemoApp()
 	SAFE_RELEASE(m_pTextFormat);
 }
 
+void DemoApp::DiscardDeviceResources()
+{
+	// CreateDeviceResources 함수에서 생성한 모든 자원들을 반납
+	SAFE_RELEASE(m_pRenderTarget);
+	SAFE_RELEASE(m_pLightSlateGrayBrush);
+	SAFE_RELEASE(m_pCornflowerBlueBrush);
+	for (int i = 0; i < 10; i++)
+		SAFE_RELEASE(m_pFillBrush[i]);
+}
+
 void DemoApp::RunMessageLoop()
 {
 	MSG msg;
@@ -191,16 +201,6 @@ HRESULT DemoApp::CreateDeviceResources()
 	return hr;
 }
 
-void DemoApp::DiscardDeviceResources()
-{
-	// CreateDeviceResources 함수에서 생성한 모든 자원들을 반납
-	SAFE_RELEASE(m_pRenderTarget);
-	SAFE_RELEASE(m_pLightSlateGrayBrush);
-	SAFE_RELEASE(m_pCornflowerBlueBrush);
-	for (int i = 0; i < 10; i++)
-		SAFE_RELEASE(m_pFillBrush[i]);
-}
-
 LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
 	LRESULT result = 0;
@@ -309,7 +309,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
 			}
 			break;  // break 문 다는 것을 깜빡하여 고생을 좀 많이 했습니다...ㅠㅠ
 
-			case WM_LBUTTONUP:  // 마우스 땔 시
+			case WM_LBUTTONUP:  // 마우스 뗄 시
 			{
 				mouseClick = false;
 
@@ -331,8 +331,8 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
 					}
 				}
 
-				else if (topBox.top <= mousePosition.y && mousePosition.y <= topBox.bottom)  // 상자 제거시, 이 부분 또한, 상하 비교가 아닌 좌우 비교로 하여 위쪽 if문에 먼저 걸리는 문제가 있었습니다.
-				{
+				else if (topBox.top <= mousePosition.y && mousePosition.y <= topBox.bottom)  // 상자 제거시 상하 비교가 아닌 좌우 비교로 하여 
+				{//위쪽 if문에 먼저 걸리는 문제가 있었습니다.					
 					if (topBox.left <= mousePosition.x && mousePosition.x <= topBox.right)  // 해결하는데 상당한 시간을 소요했습니다. ㅠㅠ
 					{
 						if (delBoxFlag)
@@ -413,10 +413,6 @@ HRESULT DemoApp::OnRender()
 
 		D2D1_SIZE_F rtSize = m_pRenderTarget->GetSize(); //그리기 영역의 크기를 얻음.
 
-		// 배경 격자를 그림.
-		int width = static_cast<int>(rtSize.width);
-		int height = static_cast<int>(rtSize.height);
-
 		topBox.left = rtSize.width / 2 - 40.0f;
 		topBox.top = 0;
 		topBox.right = rtSize.width / 2 + 40.0f;
@@ -427,6 +423,10 @@ HRESULT DemoApp::OnRender()
 		studentBox.right = rtSize.width / 2 + 80.0f;
 		studentBox.bottom = 40.0f * 9;
 
+		// 배경 격자를 그림.
+		int width = static_cast<int>(rtSize.width);
+		int height = static_cast<int>(rtSize.height);
+
 		for (int x = 0; x < width; x += 10)
 		{
 			m_pRenderTarget->DrawLine(D2D1::Point2F(static_cast<FLOAT>(x), 0.0f), D2D1::Point2F(static_cast<FLOAT>(x), rtSize.height), m_pLightSlateGrayBrush, 0.5f);
@@ -435,12 +435,11 @@ HRESULT DemoApp::OnRender()
 		for (int y = 0; y < height; y += 10)
 		{
 			m_pRenderTarget->DrawLine(D2D1::Point2F(0.0f, static_cast<FLOAT>(y)), D2D1::Point2F(rtSize.width, static_cast<FLOAT>(y)), m_pLightSlateGrayBrush, 0.5f);
-		}
-		
+		}		
 
 		if (makeBoxFlag || delBoxFlag)
 		{
-			MakeChasingRect(mousePosition, bottomBox.bottom);
+			MovingRectangle(mousePosition, bottomBox.bottom);
 		}
 
 		if (studentNumber < 8)  // 학생 수가 8명 미만이면 가상 박스 생성
@@ -525,13 +524,12 @@ void DemoApp::OnResize(UINT width, UINT height)
 	}
 }
 
-D2D1_RECT_F DemoApp::MakeChasingRect(D2D_POINT_2F mousePos, FLOAT h)
+D2D1_RECT_F DemoApp::MovingRectangle(D2D_POINT_2F mousePos, FLOAT h)
 {
 	FLOAT scale_ratio, rotate_degree, alpha1, beta1, alpha2, beta2, temp_cur_h;
 	WCHAR szText[100];
 	int a;
 
-	////////////////////scale 변환 비율을 구하는 식
 	if (mousePos.y < 40)
 	{
 		scale_ratio = 1;
@@ -551,7 +549,6 @@ D2D1_RECT_F DemoApp::MakeChasingRect(D2D_POINT_2F mousePos, FLOAT h)
 
 	if (scale_ratio > 2)
 		scale_ratio = 2.0f;
-	////////////////////////////////////////
 
 	D2D1_RECT_F F = D2D1::RectF(mousePosition.x - 40.0f, mousePosition.y - 20.0f, mousePosition.x + 40.0f, mousePosition.y + 20.0f);
 
