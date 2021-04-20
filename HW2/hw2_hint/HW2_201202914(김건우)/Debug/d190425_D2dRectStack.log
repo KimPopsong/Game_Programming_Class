@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201202914(김건우)\main.cpp(433,42): warning C4305: '인수': 'double'에서 'FLOAT'(으)로 잘립니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201202914(김건우)\main.cpp(446,42): warning C4305: '인수': 'double'에서 'FLOAT'(으)로 잘립니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201202914(김건우)\main.cpp(464,42): warning C4305: '인수': 'double'에서 'FLOAT'(으)로 잘립니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201202914(김건우)\main.cpp(465,42): warning C4305: '인수': 'double'에서 'FLOAT'(으)로 잘립니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201202914(김건우)\main.cpp(503,42): warning C4305: '인수': 'double'에서 'FLOAT'(으)로 잘립니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201202914(김건우)\main.cpp(504,58): warning C4305: '인수': 'double'에서 'FLOAT'(으)로 잘립니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201202914(김건우)\main.cpp(578,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201202914(김건우)\main.cpp(635,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201202914(김건우)\main.cpp(707,38): warning C4244: '인수': 'FLOAT'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201202914(김건우)\main.cpp(707,28): warning C4244: '인수': 'FLOAT'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  d190425_D2dRectStack.vcxproj -> C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201202914(김건우)\Debug\d190425_D2dRectStack.exe

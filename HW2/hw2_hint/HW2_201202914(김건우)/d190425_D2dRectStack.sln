@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "d190425_D2dRectStack", "d190425_D2dRectStack.vcxproj", "{16555483-A110-4E7D-A8FA-2C5297BECDAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16555483-A110-4E7D-A8FA-2C5297BECDAE}.Debug|x86.ActiveCfg = Debug|Win32
+		{16555483-A110-4E7D-A8FA-2C5297BECDAE}.Debug|x86.Build.0 = Debug|Win32
+		{16555483-A110-4E7D-A8FA-2C5297BECDAE}.Release|x86.ActiveCfg = Release|Win32
+		{16555483-A110-4E7D-A8FA-2C5297BECDAE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF6069BC-CF0B-40F2-9799-02C3E4E63AA6}
+	EndGlobalSection
+EndGlobal

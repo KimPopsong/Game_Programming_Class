@@ -1,0 +1,9 @@
+﻿  Hw2.cpp
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201301625(정병선)\Hw2.cpp(348,40): warning C4305: '인수': 'double'에서 'FLOAT'(으)로 잘립니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201301625(정병선)\Hw2.cpp(378,2): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201301625(정병선)\Hw2.cpp(421,55): warning C4244: '인수': 'DOUBLE'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201301625(정병선)\Hw2.cpp(422,59): warning C4244: '인수': 'DOUBLE'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201301625(정병선)\Hw2.cpp(504,55): warning C4244: '인수': 'DOUBLE'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201301625(정병선)\Hw2.cpp(505,59): warning C4244: '인수': 'DOUBLE'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201301625(정병선)\Hw2.cpp(493,6): warning C4101: 'rotationValue' :참조되지 않은 지역 변수입니다.
+  MultipleTransforms.vcxproj -> C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW2\hw2_hint\HW2_201301625(정병선)\Debug\Hw2.exe
