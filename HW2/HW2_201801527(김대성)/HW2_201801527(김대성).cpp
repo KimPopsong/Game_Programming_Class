@@ -1,4 +1,4 @@
-﻿// HW2_201801527(김대성).cpp : 애플리케이션에 대한 진입점을 정의합니다.
+// HW2_201801527(김대성).cpp : 애플리케이션에 대한 진입점을 정의합니다.
 //
 
 #include "framework.h"
@@ -272,12 +272,6 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
 						{
 							MessageBoxW(hwnd, L"Already 8 Students!", L"ERROR", 0);  // 경고문구 출력
 							makeBoxFlag = false;
-
-							for (int i = 0; i < 3; ++i) 
-							{
-								student.name[i] = studentVector[studentNumber].name[i];
-							}
-							student.score = studentVector[studentNumber].score;
 						}
 					}
 
