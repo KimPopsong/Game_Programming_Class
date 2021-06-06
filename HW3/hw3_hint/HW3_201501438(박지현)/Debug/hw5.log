@@ -1,0 +1,43 @@
+﻿  basecode.cpp
+  bitmapandbrush.cpp
+  deviceindependent.cpp
+  hw3.cpp
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(85,51): warning C4474: 'swprintf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(85,51): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 4개가 제공되었습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(116,28): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(116,21): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(181,17): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(193,13): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(200,113): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(227,17): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(233,50): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(233,69): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(235,55): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(237,28): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(245,18): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(251,23): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(254,19): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(263,21): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(274,23): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(278,28): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(282,33): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(414,109): warning C4805: '==': 연산에 'boolean' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(415,24): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(417,29): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(419,34): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(422,77): warning C4805: '==': 연산에 'boolean' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(424,77): warning C4805: '==': 연산에 'boolean' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(425,26): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(425,99): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(428,31): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(428,104): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(431,31): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(453,73): warning C4805: '==': 연산에 'boolean' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(457,79): warning C4805: '==': 연산에 'boolean' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(461,78): warning C4805: '==': 연산에 'boolean' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(464,72): warning C4805: '==': 연산에 'boolean' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(467,65): warning C4805: '==': 연산에 'boolean' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(470,65): warning C4805: '==': 연산에 'boolean' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\hw3.cpp(472,21): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+  코드를 생성하고 있습니다...
+  hw5.vcxproj -> C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201501438(박지현)\Debug\hw3.exe
