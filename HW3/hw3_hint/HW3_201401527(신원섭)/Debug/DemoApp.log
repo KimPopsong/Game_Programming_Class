@@ -1,0 +1,29 @@
+﻿  DemoApp.cpp
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401527(신원섭)\DemoApp.cpp(215,31): warning C4456: 'pSink' 선언은 이전 로컬 선언을 숨깁니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401527(신원섭)\DemoApp.cpp(153,21): message : 'pSink' 선언을 참조하십시오.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401527(신원섭)\DemoApp.cpp(257,31): warning C4456: 'pSink' 선언은 이전 로컬 선언을 숨깁니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401527(신원섭)\DemoApp.cpp(153,21): message : 'pSink' 선언을 참조하십시오.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401527(신원섭)\DemoApp.cpp(284,31): warning C4456: 'pSink' 선언은 이전 로컬 선언을 숨깁니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401527(신원섭)\DemoApp.cpp(153,21): message : 'pSink' 선언을 참조하십시오.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401527(신원섭)\DemoApp.cpp(309,31): warning C4456: 'pSink' 선언은 이전 로컬 선언을 숨깁니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401527(신원섭)\DemoApp.cpp(153,21): message : 'pSink' 선언을 참조하십시오.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401527(신원섭)\DemoApp.cpp(634,24): warning C4459: 'rtSize' 선언은 전역 선언을 숨깁니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401527(신원섭)\DemoApp.cpp(7,13): message : 'rtSize' 선언을 참조하십시오.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401527(신원섭)\DemoApp.cpp(697,64): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401527(신원섭)\Animation.h(182,19): warning C4244: 'return': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=float
+          ]
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401527(신원섭)\Animation.h(178): message : 클래스 템플릿 멤버 함수 'T CrowAnimation<T>::ComputeValue(T)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              T=float
+          ]
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401527(신원섭)\DemoApp.h(92): message : 컴파일되는 클래스 템플릿 인스턴스화 'CrowAnimation<float>'에 대한 참조를 확인하세요.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401527(신원섭)\Animation.h(185,19): warning C4244: 'return': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=float
+          ]
+  DemoApp.vcxproj -> C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401527(신원섭)\Debug\DemoApp.exe

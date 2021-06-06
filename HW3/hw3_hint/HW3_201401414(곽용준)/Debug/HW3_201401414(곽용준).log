@@ -1,0 +1,13 @@
+﻿  hw3.cpp
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401414(곽용준)\hw3.cpp(48,13): warning C4244: 'return': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401414(곽용준)\hw3.cpp(654,78): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401414(곽용준)\hw3.cpp(656,17): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401414(곽용준)\hw3.cpp(657,58): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401414(곽용준)\hw3.cpp(568,32): warning C4101: 'point3' :참조되지 않은 지역 변수입니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401414(곽용준)\hw3.cpp(569,46): warning C4101: 'tangent4' :참조되지 않은 지역 변수입니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401414(곽용준)\hw3.cpp(569,26): warning C4101: 'tangent2' :참조되지 않은 지역 변수입니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401414(곽용준)\hw3.cpp(568,40): warning C4101: 'point4' :참조되지 않은 지역 변수입니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401414(곽용준)\hw3.cpp(569,36): warning C4101: 'tangent3' :참조되지 않은 지역 변수입니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401414(곽용준)\hw3.cpp(568,24): warning C4101: 'point2' :참조되지 않은 지역 변수입니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401414(곽용준)\hw3.cpp(852,28): warning C4244: '=': 'unsigned long'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  HW3_201401414(곽용준).vcxproj -> C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201401414(곽용준)\Debug\HW3_201401414(곽용준).exe
