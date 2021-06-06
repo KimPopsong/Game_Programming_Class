@@ -1,0 +1,63 @@
+﻿  Hw3.cpp
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201301625(정병선)\Hw3.cpp(160,13): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201301625(정병선)\Hw3.cpp(532,23): warning C4244: '=': 'DWORD'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201301625(정병선)\Hw3.cpp(533,24): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201301625(정병선)\Hw3.cpp(534,25): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201301625(정병선)\Hw3.cpp(535,27): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201301625(정병선)\Hw3.cpp(536,28): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201301625(정병선)\Hw3.cpp(537,24): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201301625(정병선)\Hw3.cpp(538,25): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201301625(정병선)\Hw3.cpp(830,30): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201301625(정병선)\Hw3.cpp(545,4): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201301625(정병선)\Hw3.cpp(917,2): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201301625(정병선)\Hw3.cpp(918,2): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Windows Kits\10\Include\10.0.19041.0\um\d2d1helper.h(152,50): warning C4838: 'Type'에서 'FLOAT'(으)로의 변환에는 축소 변환이 필요합니다.
+          with
+          [
+              Type=int
+          ]
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201301625(정병선)\Hw3.cpp(164): message : 컴파일되는 함수 템플릿 인스턴스화 'D2D1::TypeTraits<int>::Rect D2D1::Rect<int>(Type,Type,Type,Type)'에 대한 참조를 확인하세요.
+          with
+          [
+              Type=int
+          ]
+E:\Windows Kits\10\Include\10.0.19041.0\um\d2d1helper.h(152,50): warning C4244: '초기화 중': 'Type'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              Type=int
+          ]
+E:\Windows Kits\10\Include\10.0.19041.0\um\d2d1helper.h(152,56): warning C4838: 'Type'에서 'FLOAT'(으)로의 변환에는 축소 변환이 필요합니다.
+          with
+          [
+              Type=int
+          ]
+E:\Windows Kits\10\Include\10.0.19041.0\um\d2d1helper.h(152,56): warning C4244: '초기화 중': 'Type'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              Type=int
+          ]
+E:\Windows Kits\10\Include\10.0.19041.0\um\d2d1helper.h(152,61): warning C4838: 'Type'에서 'FLOAT'(으)로의 변환에는 축소 변환이 필요합니다.
+          with
+          [
+              Type=int
+          ]
+E:\Windows Kits\10\Include\10.0.19041.0\um\d2d1helper.h(152,61): warning C4244: '초기화 중': 'Type'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              Type=int
+          ]
+E:\Windows Kits\10\Include\10.0.19041.0\um\d2d1helper.h(152,68): warning C4838: 'Type'에서 'FLOAT'(으)로의 변환에는 축소 변환이 필요합니다.
+          with
+          [
+              Type=int
+          ]
+E:\Windows Kits\10\Include\10.0.19041.0\um\d2d1helper.h(152,68): warning C4244: '초기화 중': 'Type'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              Type=int
+          ]
+resource.h(7): warning RC4005: 'IDC_STATIC' : redefinition
+  
+  DemoApp.vcxproj -> C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201301625(정병선)\Debug\Hw3.exe
+  BackGround.jpg
+          1개 파일이 복사되었습니다.
