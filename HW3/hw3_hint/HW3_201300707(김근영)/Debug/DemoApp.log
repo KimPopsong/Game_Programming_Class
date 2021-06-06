@@ -1,0 +1,17 @@
+﻿  DemoApp.cpp
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201300707(김근영)\DemoApp.cpp(56,14): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201300707(김근영)\DemoApp.cpp(196,31): warning C4456: 'pSink' 선언은 이전 로컬 선언을 숨깁니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201300707(김근영)\DemoApp.cpp(165,21): message : 'pSink' 선언을 참조하십시오.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201300707(김근영)\DemoApp.cpp(230,31): warning C4456: 'pSink' 선언은 이전 로컬 선언을 숨깁니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201300707(김근영)\DemoApp.cpp(165,21): message : 'pSink' 선언을 참조하십시오.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201300707(김근영)\DemoApp.cpp(319,31): warning C4456: 'pSink' 선언은 이전 로컬 선언을 숨깁니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201300707(김근영)\DemoApp.cpp(165,21): message : 'pSink' 선언을 참조하십시오.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201300707(김근영)\DemoApp.cpp(574,46): warning C4100: 'TimerOrWaitFired': 참조되지 않은 정식 매개 변수입니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201300707(김근영)\DemoApp.cpp(574,29): warning C4100: 'lpParam': 참조되지 않은 정식 매개 변수입니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201300707(김근영)\DemoApp.cpp(580,49): warning C4100: 'TimerOrWaitFired': 참조되지 않은 정식 매개 변수입니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201300707(김근영)\DemoApp.cpp(580,32): warning C4100: 'lpParam': 참조되지 않은 정식 매개 변수입니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201300707(김근영)\DemoApp.cpp(586,50): warning C4100: 'TimerOrWaitFired': 참조되지 않은 정식 매개 변수입니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201300707(김근영)\DemoApp.cpp(613,58): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201300707(김근영)\DemoApp.cpp(652,73): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201300707(김근영)\DemoApp.cpp(541): warning C4700: 초기화되지 않은 'hr' 지역 변수를 사용했습니다.
+  DemoApp.vcxproj -> C:\Users\kimds\Desktop\공부\Game_Programming_Class\HW3\hw3_hint\HW3_201300707(김근영)\Debug\DemoApp.exe
